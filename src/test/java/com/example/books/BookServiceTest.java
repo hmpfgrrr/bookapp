@@ -1,4 +1,4 @@
-package com.example.app;
+package com.example.books;
 
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
