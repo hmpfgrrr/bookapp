@@ -1,3 +1,3 @@
 # bookapp
 
-Demo App for AI Tools Experiments
+Demo App for AI Tools experiments
