@@ -42,10 +42,4 @@ public class BookController {
         }
         return ResponseEntity.notFound().build();
     }
-
-    @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteBook(@PathVariable Long id) {
-        bookService.deleteBook(id);
-        return ResponseEntity.noContent().build();
-    }
 }
