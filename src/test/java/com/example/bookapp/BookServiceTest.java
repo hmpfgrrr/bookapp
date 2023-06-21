@@ -5,10 +5,6 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.example.bookapp.Book;
-import com.example.bookapp.BookRepository;
-import com.example.bookapp.BookService;
-
 import java.util.Arrays;
 import java.util.List;
 
