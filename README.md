@@ -6,13 +6,9 @@ Demo App for AI Tools experiments
 Demonstration steps:
 - in Book Entity: 
     public String toString() {
-- log Output with variable in BookService.getAllBooks():
-    System.out...
 - „what are the available endpoints“
-- „show curl request to get the available books“
 - „show curl request to post a new book“
-- „show curl request to delete book with id 2“
-- add delete case by hand (controller, service)
+- add delete case by hand (controller, service): "how can i delete a book"
 - explain ISBN class
     - "explain this regex"
     - create docs (/docs)
