@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 public class IsbnValidator {
 
-  private static final String ISBN_REGEX = "^((97(8|9))?\\d{9}(\\d|X))|((97(8|9))?-\\d{1,5}-\\d{1,7}-\\d{1,6}-\\d)$";
+  private static final String ISBN_REGEX = "^(?:\\d{13}|\\d{3}-\\d{1}-\\d{2}-\\d{6}-\\d{1})$";
 
   public boolean isValidIsbn(String isbn) {
     Pattern p = Pattern.compile(ISBN_REGEX);
