@@ -19,3 +19,5 @@ Demonstration steps:
     - write tests (evtl mit "/test using junit jupiter")
 - create whole code blocks: 
 "i also want to manage authors via my api. i want to get/update/delete an author. For the author i need the following fields: firstname, lastname, birthdate, genres (a list). what do i need to change in my code?"
+- "what is solid"
+- "how does bubblesort work? explain and show a java example"
